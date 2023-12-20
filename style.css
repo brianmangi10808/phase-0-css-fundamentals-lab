@@ -3,3 +3,62 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+header {
+  text-align: center; /* Aligns header text center */
+}
+
+header nav {
+  text-align: center; /* Aligns nav links center */
+}
+
+header a {
+  padding: 10px; /* Adds padding */
+  background-color: grey; /* Changes background color */
+  text-decoration: none; /* Removes default underline */
+  color: white; /* Sets text color */
+}
+section#featured-property figure {
+  text-align: center; /* Center the image */
+}
+section#featured-property figcaption {
+  font-size: 12px; /* Shrinks font size */
+  text-align: center; /* Center the caption text */
+}
+section#featured-property p {
+  width: 800px; /* Sets hard width */
+  margin: 20px auto; /* Centers the text and adds vertical space */
+  text-align: center; /* Centers the text */
+}
+section#details div {
+  float: left; /* Floats divs to the left */
+  width: 25%; /* Occupies 25% of the width */
+  text-align: center; /* Centers text */
+  background-color: lightblue; /* Background color */
+  box-sizing: border-box; /* Include padding in width calculation */
+  padding: 20px; /* Padding around divs */
+}
+
+/* Clear floats */
+section#details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer div {
+  background-color: lightblue; /* Background color */
+  text-align: center; /* Centers text */
+  width: 25%; /* Occupies 25% of the width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  padding: 20px; /* Padding around divs */
+  float: left; /* Floats divs to the left */
+}
+
+/* Clear floats */
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
